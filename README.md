@@ -22,5 +22,5 @@ This project simulates a real-world analytics scenario in the consumer finance s
 
 ---
 
-## 🗂️ Project Structure
+
 
