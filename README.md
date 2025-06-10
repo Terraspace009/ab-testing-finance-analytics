@@ -1,26 +1,32 @@
-# 📊 A/B Testing and Hypothesis Validation in Consumer Finance Analytics
+# A/B Testing in Consumer Finance Analytics 🧪💳
 
-This project simulates a real-world analytics scenario in the consumer finance sector. Using a synthetic dataset of customer demographics and behavior, we identify target segments and evaluate the impact of marketing offers on credit card sign-up rates using A/B testing and hypothesis testing.
+This project demonstrates how to design and evaluate an A/B test for a credit card marketing offer using synthetic customer data. It includes dataset generation, exploratory segmentation, and statistical hypothesis testing to evaluate the effectiveness of targeted offers.
 
 ---
 
-## 🚀 Project Objectives
+## 📌 Problem Statement
 
-- Analyze customer profiles to identify the ideal target audience
-- Simulate an A/B test comparing a personalized bonus offer vs a generic offer
-- Use statistical hypothesis testing (Chi-square) to validate effectiveness
-- Visualize insights and build a dashboard using Streamlit
+Financial institutions often run marketing campaigns to increase customer engagement or conversion. This project simulates a real-world use case of validating whether a new credit card offer (Treatment group) performs significantly better than a baseline offer (Control group), using data science techniques.
 
 ---
 
 ## 🧰 Tech Stack
 
-- **Python** (Pandas, NumPy, Seaborn, Matplotlib, Scipy)
-- **Jupyter Notebooks** for exploration and testing
-- **Streamlit** for dashboard interface
-- **Git & GitHub** for version control and publishing
+- **Python**
+- **Pandas & NumPy**
+- **Matplotlib & Seaborn**
+- **SciPy (for statistical testing)**
+- **Jupyter Notebook**
 
 ---
+
+## 📊 Project Structure
+
+```text
+📁 ab-testing-finance-analytics
+├── _01_generate_dataset.ipynb       # Code to create synthetic customer data
+├── 02_target_segmentation.ipynb     # Exploratory segmentation and A/B test logic
+├── README.md                        # You are here
 
 
 
